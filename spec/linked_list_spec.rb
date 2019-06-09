@@ -37,6 +37,8 @@ describe LinkedList do
     expect(@list.to_string).to eq('pop')
     @list.append('pip')
     expect(@list.to_string).to eq('pop pip')
+    @list.append('pup')
+    expect(@list.to_string).to eq('pop pip pup')
   end
 
   it 'insert' do
