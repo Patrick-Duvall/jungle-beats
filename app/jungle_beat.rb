@@ -12,4 +12,9 @@ class JungleBeat
     @list.count
   end
 
+  def play
+    string = @list.to_string
+    `say -r 500 -v sin-ji #{string}` #boing disabled
+  end
+
 end

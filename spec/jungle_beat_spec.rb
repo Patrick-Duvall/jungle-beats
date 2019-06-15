@@ -21,4 +21,8 @@ describe JungleBeat  do
     expect(@jb.count).to eq(5)
   end
 
+  it 'play' do
+    ##Can I test Play?
+  end
+
 end
